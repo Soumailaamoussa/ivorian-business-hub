@@ -3,9 +3,9 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import RealTime from './pages/RealTime';
 
-const App: React.FC = () => {
+const App = () => {
   return (
-    <div className="min-h-screen bg-gray-50 w-full">
+    <div className="min-h-screen bg-gray-50">
       <Routes>
         <Route path="/" element={<RealTime />} />
       </Routes>
